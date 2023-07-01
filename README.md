@@ -4,6 +4,8 @@ they are basically the same scrape_summarize has a 300 token limit
 you can change this ..
 
 run $ export OPENAI_API_KEY="your-key-goes-here"
+ (win) CMD $ setx OPENAI_API_KEY "your-key-goes-here"
+
 
 
 sum-scrape is the final refinement the others still work but the final saves the api (locally on your machine)
