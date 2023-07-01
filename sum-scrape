@@ -1,9 +1,14 @@
-import hashlib
-import json
-import os
-import requests
-from bs4 import BeautifulSoup
-import openai
+import hashlib 
+import json 
+import os 
+import requests 
+from bs4 import BeautifulSoup 
+import openai 
+
+openai_api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = openai_api_key 
+
+cache_filename = 'api_cache.json' 
 
 # Prompt user to input OpenAI API key
 openai_api_key = input("Please enter your OpenAI API key: ")
