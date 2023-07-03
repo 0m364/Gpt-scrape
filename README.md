@@ -3,6 +3,9 @@ A web scraper that uses chatgpt to summarize the page
 they are basically the same scrape_summarize has a 300 token limit 
 you can change this ..
 
+tested woth 5000 tokens successfully still left at 300 because there are diminished returns
+since it only gives a summary... if you need different data stored i can make that happen as well
+
 run $ export OPENAI_API_KEY="your-key-goes-here"
  (win) CMD $ setx OPENAI_API_KEY "your-key-goes-here"
 
